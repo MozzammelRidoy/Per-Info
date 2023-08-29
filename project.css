@@ -146,6 +146,7 @@ header{
 
  /* Feedback Start  */
  #feedback{
+
     padding: 5%;
     background: #5eaaa8;
  }
@@ -164,3 +165,45 @@ header{
     margin-bottom: -20px;
  }
  /* Feedback End  */
+
+ /* Contact Start  */
+ #contact{
+    padding: 2% 10%;
+    background: #5eaaa8;
+ }
+ .form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+ }
+
+
+
+ /* Contact End  */
+
+
+
+ /* Footer Start  */
+ footer{
+    padding: 1% 10%;
+    background: #056676;
+ }
+ footer a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+ }
+ footer a:hover{
+    color: black;
+
+ }
+ /* Footer End  */
+
+ /* Responsive Part  */
+ @media (max-width:768px){
+    .nav-link{
+        background: rgb(0, 0, 0, 0.7);
+    }
+    .banner-container h1{
+        font-size: 2.5rem;
+    }
+ }
